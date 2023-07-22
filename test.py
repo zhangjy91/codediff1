@@ -15,7 +15,10 @@ class Person:
     def run(self, num):
         print('{} is running'.format(self.name))
 
+    def add(self, a, b):
+        print('a+b的值是',a+b)
 
 P1 = Person('张三',22)
 P1.eat()
 P1.run(2)
+P1.add(5,5)
