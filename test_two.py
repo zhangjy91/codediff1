@@ -7,6 +7,8 @@ class TestStringMethods(unittest.TestCase):
 
     def test_lower(self):
         self.assertEqual('DVD'.lower(),'dvd')
+
+    def test_check(self):
         self.assertTrue('SET'.isupper())
 
 
